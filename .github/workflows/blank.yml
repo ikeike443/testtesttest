@@ -32,11 +32,9 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
         
-    - name: HTTP Request Action
-      uses: fjogeleit/http-request-action@v1.0
+    - name: Github Action for curl
+      uses: wei/curl@v1.1.1
       with:
-        # Request URL
-        url: https://google.com
-        method: GET
+        args: https://google.com
 
 
