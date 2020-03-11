@@ -37,6 +37,6 @@ jobs:
       with:
         # Request URL
         url: https://google.com
-
+        method: GET
 
 
